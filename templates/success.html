@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="{{ url_for('static', path='/styles/success.css') }}">
+        <meta charset="UTF-8">
+        <link rel="icon"href="{{ url_for('static', path='favicon.png') }}">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <title>Request Proccessing!</title>
+    </head>
+    <body>
+        <div>
+            <h1>{{ user['given_name'] }}, Your Request is Being Processed!</h1>
+            <!-- <img src="{{ user['picture'] }}" alt="Profile Picture"> -->
+            <!-- <pre>
+                {% for k, v in user.items() %}
+                {{k}}: '{{v}}'
+                {% endfor %}
+            </pre> -->
+            <p>
+                You will be emailed when your request is approved.
+            </p>
+        </div>
+    </body>
+</html>
