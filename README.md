@@ -1,8 +1,6 @@
 # Getting Started
 
-## Dependencies
-
-### Linux/WSL
+## Linux/WSL
 
 ```bash
 python3 -m venv venv
